@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.promineotech.rudimentarybanking.entites.Account;
-import com.promineotech.rudimentarybanking.entites.User;
 import com.promineotech.rudimentarybanking.repository.AccountRepository;
 
 @Service
@@ -38,7 +37,7 @@ public class AccountService {
 	}
 	
 	public Account updateAccount(Account account, Long id) throws Exception {	
-		try {
+		try{
 			Account oldAccount = repo.findOne(id);
 			oldAccount.setUser(account.getUser()); // not sure how this will work when adding additional users to the account
 			oldAccount.setAccountType(account.getAccountType());
@@ -48,12 +47,6 @@ public class AccountService {
 		} catch (Exception e) {
 			logger.error("Exception occured while trying to update the account with an id of: " + id, e);
 			throw new Exception("Unable to update the account.");
-		}
-	}
-	
-	public Account addUser(Account account, Long id) throws Exception {
-		try {
-	//I don't know what I need to add to this to make it work
 		}
 	}
 	

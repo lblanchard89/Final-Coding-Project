@@ -20,7 +20,6 @@ public class Account {
 	
 	@JsonIgnore
 	private User user; // needs to be a list, change setter/getter and relationship to manytomany
-	private User secondUser = new User(); //if not a list set up this way for the additional user
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -41,17 +40,6 @@ public class Account {
 	public void setUser(User user) {
 		this.user = user;
 	}
-	
-	@ManyToOne
-	@JoinColumn(name = "userId")
-	public User getSecondUser() {
-		return secondUser;
-	}
-
-	public void setSecondUser(User secondUser) {
-		this.secondUser = secondUser;
-	}
-	
 
 	public String getAccountType() {
 		return accountType;
@@ -76,6 +64,5 @@ public class Account {
 	public void setAccountTier(AccountTier accountTier) {
 		this.accountTier = accountTier;
 	}
-
-
+	
 }
