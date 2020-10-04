@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.AccountTier"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.TransferStatus"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Address"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Transfer"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.repository.AccountRepository"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Deposit"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Account"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.DepositStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.User"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,246 @@
+2020-09-22 21:53:55,303 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-22 21:54:47,575 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\pom.xml
+2020-09-22 21:54:48,160 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.promineotech:rudimentarybanking:0.0.1-SNAPSHOT @ C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\pom.xml.
+2020-09-22 21:54:48,336 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rudimentarybanking/src/main/java
+2020-09-22 21:54:48,339 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rudimentarybanking/src/test/java
+2020-09-22 21:54:48,462 [Worker-33: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2020-09-22 21:54:49,139 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:54:49,140 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:54:49,142 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:54:49,142 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:54:56,619 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:54:56,619 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:54:56,621 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:54:56,621 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:55:48,117 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:55:48,117 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:55:48,118 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:55:48,118 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:56:14,701 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:14,701 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:56:14,702 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:14,702 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:56:29,457 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:29,457 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:56:29,458 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:29,458 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:56:40,932 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:40,932 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:56:40,932 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:56:40,933 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:57:29,023 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:57:29,023 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:57:29,024 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:57:29,024 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:58:51,965 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:58:51,965 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:58:51,967 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:58:51,967 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:03,398 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:03,398 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:03,399 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:03,399 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:18,108 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:18,108 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:18,109 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:18,109 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:27,014 [Worker-38: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:27,014 [Worker-38: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:27,015 [Worker-38: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:27,015 [Worker-38: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:44,638 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:44,638 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:44,639 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:44,639 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:48,029 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:48,029 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:48,029 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:48,030 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 21:59:58,731 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:58,731 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 21:59:58,732 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 21:59:58,732 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:00:15,168 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:15,168 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:00:15,169 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:15,169 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:00:28,247 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:28,247 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:00:28,248 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:28,249 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:00:41,893 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:41,894 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:00:41,894 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:41,895 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:00:50,966 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:50,966 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:00:50,967 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:00:50,967 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:01:04,398 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:01:04,398 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:01:04,399 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:01:04,400 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:01:24,592 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:01:24,592 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:01:24,593 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:01:24,593 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:03:38,865 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:38,865 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:03:38,865 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:38,866 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:03:47,074 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:47,074 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:03:47,075 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:47,075 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:03:57,695 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:57,695 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:03:57,696 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:03:57,696 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:04:06,707 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:06,707 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:04:06,708 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:06,708 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:04:25,449 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:25,450 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:04:25,450 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:25,450 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:04:33,598 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:33,598 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:04:33,599 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:04:33,599 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:05:28,892 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:05:28,892 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:05:28,893 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:05:28,893 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:05:46,927 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:05:46,927 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:05:46,932 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:05:46,932 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:06:01,520 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:01,520 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:06:01,520 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:01,520 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:06:15,231 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:15,232 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:06:15,232 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:15,232 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:06:29,228 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:29,228 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:06:29,230 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:06:29,230 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:07:22,158 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:22,158 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:07:22,159 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:22,159 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:07:32,609 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:32,609 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:07:32,610 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:32,610 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:07:44,195 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:44,195 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:07:44,196 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:44,196 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:07:54,501 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:54,501 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:07:54,501 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:07:54,501 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:08:17,285 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:17,285 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:08:17,286 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:17,286 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:08:45,111 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:45,111 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:08:45,112 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:45,112 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:08:55,083 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:55,083 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:08:55,084 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:08:55,084 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:11:06,983 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.promineotech:rudimentarybanking:0.0.1-SNAPSHOT @ C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\pom.xml.
+2020-09-22 22:11:08,521 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:08,521 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:11:08,522 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:11:08,524 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:08,524 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:11:09,803 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:09,803 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:11:09,803 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\main\resources
+2020-09-22 22:11:09,804 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:09,804 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:11:52,628 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:52,632 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:11:52,632 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:11:52,633 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:11:52,633 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:13:21,421 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:21,421 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:13:21,429 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:13:21,431 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:21,431 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:13:45,982 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:45,982 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:13:45,982 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:13:45,987 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:45,987 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:13:58,701 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:58,701 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:13:58,702 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:13:58,704 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:13:58,704 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:14:49,506 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:14:49,507 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:14:49,509 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-22 22:14:49,510 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:14:49,510 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:36:57,455 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:36:57,457 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:36:57,458 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:36:57,460 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:36:57,460 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 22:52:53,909 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:52:53,910 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:52:53,911 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 22:52:53,912 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 22:52:53,912 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-22 23:46:11,510 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 23:46:11,511 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 23:46:11,512 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-22 23:46:11,513 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-22 23:46:11,513 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-23 12:17:27,888 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-23 12:47:20,204 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-23 12:47:20,211 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-23 12:47:20,220 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-23 12:47:20,221 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-23 12:47:20,222 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-09-23 22:58:43,903 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-23 22:58:43,905 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-23 22:58:43,907 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-23 22:58:43,908 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-23 22:58:43,908 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-10-03 15:33:43,206 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-03 15:35:23,606 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 15:35:23,610 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 15:35:23,620 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 15:35:23,622 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 15:35:23,622 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-10-03 16:31:15,267 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 16:31:15,269 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 16:31:15,271 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 16:31:15,273 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 16:31:15,273 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-10-03 16:32:35,329 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 16:32:35,329 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 16:32:35,331 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 16:32:35,333 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 16:32:35,333 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-10-03 17:01:31,786 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 17:01:31,787 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 17:01:31,788 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 17:01:31,789 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 17:01:31,789 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
+2020-10-03 17:04:04,845 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 17:04:04,845 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 17:04:04,847 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 17:04:04,848 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-03 17:04:04,848 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\lblan\Promineo Assignments\Weekly Assignments\Final Coding Project\rudimentarybanking\src\test\resources
