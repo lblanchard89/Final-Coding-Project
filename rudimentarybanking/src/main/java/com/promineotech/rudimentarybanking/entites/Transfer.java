@@ -22,6 +22,8 @@ public class Transfer {
 	
 	@JsonIgnore
 	private Account account;
+	private Deposit deposit;
+	private Withdraw withdraw;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -52,6 +54,24 @@ public class Transfer {
 	public void setToAccountId(Account account) {
 		this.account = account;
 	}
+
+	// I dunno if I need the same manytomany and join relationships as above
+	public Deposit getDeposit() {
+		return deposit;
+	}
+
+	public void setDeposit(Deposit deposit) {
+		this.deposit = deposit;
+	}
+
+	// I dunno if I need the same manytomany and join relationships as above
+	public Withdraw getWithdraw() {
+		return withdraw;
+	}
+
+	public void setWithdraw(Withdraw withdraw) {
+		this.withdraw = withdraw;
+	}
 	
 	public double getAmount() {
 		return amount;
@@ -76,4 +96,5 @@ public class Transfer {
 	public void setStatus(TransferStatus status) {
 		this.status = status;
 	}
+
 }

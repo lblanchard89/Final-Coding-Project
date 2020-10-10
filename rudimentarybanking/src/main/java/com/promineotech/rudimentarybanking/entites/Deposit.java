@@ -2,12 +2,14 @@ package com.promineotech.rudimentarybanking.entites;
 
 import java.time.LocalDate;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.promineotech.rudimentarybanking.util.DepositStatus;
@@ -19,11 +21,15 @@ public class Deposit {
 	private double amount;
 	private String checkFrontPicUrl; //do I need anything special for get/set including url?
 	private String checkBackPicUrl; //same as above
-	private LocalDate date;
+	private LocalDate dateDeposited;
+	private LocalDate dateAvailable;
+	
+	
 	private DepositStatus status;
 	
 	@JsonIgnore
 	public Account account;
+	public User user;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -34,7 +40,17 @@ public class Deposit {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
+	
+	@OneToOne
+	@JoinColumn(name = "userId")
+	public User getUser() {
+		return user;
+	}
+	
+	public void setUser(User user) {
+		this.user = user;
+	}
+	
 	@ManyToOne
 	@JoinColumn(name = "accountId")
 	public Account getAccount() {
@@ -69,12 +85,12 @@ public class Deposit {
 		this.checkBackPicUrl = checkBackPicUrl;
 	}
 
-	public LocalDate getDate() {
-		return date;
+	public LocalDate getDateDeposited() {
+		return dateDeposited;
 	}
 
-	public void setDate(LocalDate date) {
-		this.date = date;
+	public void setDateDeposited(LocalDate dateDeposited) {
+		this.dateDeposited = dateDeposited;
 	}
 
 	public DepositStatus getStatus() {
@@ -85,8 +101,12 @@ public class Deposit {
 		this.status = status;
 	}
 
-	public void setUser(Long userId) {
-		// TODO Auto-generated method stub
-		
+	public LocalDate getDateAvailable() {
+		return dateAvailable;
 	}
+
+	public void setDateAvailable(LocalDate dateAvailable) {
+		this.dateAvailable = dateAvailable;
+	}
+
 }

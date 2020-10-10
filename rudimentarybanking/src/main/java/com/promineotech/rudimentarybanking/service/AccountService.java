@@ -1,14 +1,12 @@
 package com.promineotech.rudimentarybanking.service;
 
-import javax.transaction.Transactional;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.promineotech.rudimentarybanking.entites.Account;
-import com.promineotech.rudimentarybanking.entites.User;
 import com.promineotech.rudimentarybanking.repository.AccountRepository;
 
 @Service
@@ -39,24 +37,18 @@ public class AccountService {
 	
 	public Account updateAccount(Account account, Long id) throws Exception {	
 		try {
-			Account oldAccount = repo.findOne(id);
-			oldAccount.setUser(account.getUser()); // not sure how this will work when adding additional users to the account
-			oldAccount.setAccountType(account.getAccountType());
-			oldAccount.setAccountTier(account.getAccountTier());
-			oldAccount.setBalance(account.getBalance());
-			return repo.save(oldAccount);
+			Account changeAccount = repo.findOne(id);
+			changeAccount.setUsers(account.getUsers()); 
+			changeAccount.setAccountType(account.getAccountType());
+			changeAccount.setAccountTier(account.getAccountTier());
+			changeAccount.setBalance(account.getBalance());
+			return repo.save(changeAccount);
 		} catch (Exception e) {
 			logger.error("Exception occured while trying to update the account with an id of: " + id, e);
 			throw new Exception("Unable to update the account.");
 		}
 	}
-	
-	public Account addUser(Account account, Long id) throws Exception {
-		try {
-	//I don't know what I need to add to this to make it work
-		}
-	}
-	
+
 	//find a way to add in accumulated interest
 	
 	@Transactional
@@ -64,7 +56,7 @@ public class AccountService {
 		try {
 			Account account = repo.findOne(id);
 			if (account.getBalance() == 0);
-			repo.delete(id); //make it so account cannot be closed unless the balance = zero
+			repo.delete(id);
 		} catch (Exception e) {
 			logger.error("Exception occured while trying to close an account with the id of: " + id, e);
 			throw new Exception("Unable to close the account.");

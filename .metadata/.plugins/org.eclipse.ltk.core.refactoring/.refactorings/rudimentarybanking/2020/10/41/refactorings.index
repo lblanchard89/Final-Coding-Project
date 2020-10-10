@@ -1,1 +1,8 @@
 1601832194825	Encapsulate field 'secondUser'
+1601924208446	Encapsulate field 'dateAvailable'
+1601924263323	Encapsulate field 'estimatedDateAvailable'
+1602267117580	Delete element
+1602267633193	Encapsulate field 'dateWithdrawn'
+1602267714025	Encapsulate field 'deposit'
+1602267718193	Encapsulate field 'withdraw'
+1602357579394	Encapsulate field 'status'

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.AccountTier"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
@@ -17,15 +14,28 @@
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Address"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Transfer"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
-    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.repository.AccountRepository"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Deposit"/>
-    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Account"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.DepositStatus"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.repository.WithdrawRepository"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Account"/>
     <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.User"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.util.WithdrawStatus"/>
+    <fullyQualifiedTypeName name="com.promineotech.rudimentarybanking.entites.Withdraw"/>
 </qualifiedTypeNameHistroy>
