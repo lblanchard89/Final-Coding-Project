@@ -6,4 +6,6 @@ import com.promineotech.rudimentarybanking.entites.Account;
 
 public interface AccountRepository extends CrudRepository<Account, Long>{
 
+
+
 }

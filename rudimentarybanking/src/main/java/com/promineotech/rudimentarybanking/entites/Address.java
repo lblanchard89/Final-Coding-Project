@@ -1,5 +1,9 @@
 package com.promineotech.rudimentarybanking.entites;
 
+
+
+import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,7 +22,7 @@ public class Address {
 	private String zip;
 	
 	@JsonIgnore
-	private User user;
+	private Set<User> users;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -63,11 +67,13 @@ public class Address {
 	}
 	
 	@OneToMany(mappedBy = "address")
-	public User getUser() {
-		return user;
+	public Set<User> getUsers() {
+		return users;
 	}
 	
-	public void setUser(User user) {
-		this.user = user;
+	public void setUsers(Set<User> users) {
+		this.users = users;
 	}
+	
 }
+

@@ -1,15 +1,20 @@
 package com.promineotech.rudimentarybanking.entites;
 
-import java.util.ArrayList;
 
+import java.util.Set;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.rudimentarybanking.requests.Action;
+import com.promineotech.rudimentarybanking.requests.Transfer;
 import com.promineotech.rudimentarybanking.util.AccountTier;
 
 @Entity
@@ -19,9 +24,13 @@ public class Account {
 	private String accountType;
 	private double balance;
 	private AccountTier accountTier;
+	private Set<User> users;
 	
 	@JsonIgnore
-	private ArrayList<User> users = new ArrayList<User>();
+	private Set<Action> actions;
+	
+	@JsonIgnore
+	private Set<Transfer> transfers;
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -33,14 +42,16 @@ public class Account {
 		this.id = id;
 	}
 	
-	@ManyToMany
-	@JoinColumn(name = "userId")
-	public ArrayList<User> getUsers() {
+	@ManyToMany(cascade=CascadeType.ALL)
+	@JoinTable(name ="userAccounts",
+		joinColumns = @JoinColumn(name = "accountId", referencedColumnName = "id"),
+		inverseJoinColumns = @JoinColumn(name = "userId", referencedColumnName = "id"))
+	public Set<User> getUsers() {
 		return users;
 	}
 	
-	public void setUsers(ArrayList<User> user) {
-		this.users = user;
+	public void setUsers(Set<User> users) {
+		this.users = users;
 	}
 	
 	public String getAccountType() {
@@ -66,6 +77,5 @@ public class Account {
 	public void setAccountTier(AccountTier accountTier) {
 		this.accountTier = accountTier;
 	}
-
 
 }

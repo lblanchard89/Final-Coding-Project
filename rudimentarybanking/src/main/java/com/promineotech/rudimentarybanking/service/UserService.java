@@ -3,6 +3,7 @@ package com.promineotech.rudimentarybanking.service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
 import com.promineotech.rudimentarybanking.entites.User;
@@ -33,18 +34,17 @@ public class UserService {
 		return repo.save(user);
 	}
 	
-	public User updateUser(User user, Long id) throws Exception{
+	public User updateUserInfo(User user, Long id) throws Exception{
 		try {
-			User oldUser = repo.findOne(id);
-			oldUser.setAddress(user.getAddress());
-			oldUser.setBirthdate(user.getBirthdate());
-			oldUser.setEmail(user.getEmail());
-			oldUser.setFirstName(user.getFirstName());
-			oldUser.setLastName(user.getLastName());
-			oldUser.setPhoneNumber(user.getPhoneNumber());
-			oldUser.setPassword(user.getPassword());
-			oldUser.setSsn(user.getSsn());
-			return repo.save(oldUser);
+			User updateUser = repo.findOne(id);
+			updateUser.setAddress(user.getAddress());
+			updateUser.setBirthdate(user.getBirthdate());
+			updateUser.setEmail(user.getEmail());
+			updateUser.setFirstName(user.getFirstName());
+			updateUser.setLastName(user.getLastName());
+			updateUser.setPhoneNumber(user.getPhoneNumber());
+			updateUser.setPassword(BCrypt.hashpw(user.getPassword(), BCrypt.gensalt()));
+			return repo.save(updateUser);
 		} catch (Exception e) {
 			logger.error("Exception occured while trying to update user: " + id, e);
 			throw new Exception("Unable to update user.");

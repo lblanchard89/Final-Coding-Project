@@ -1,8 +1,0 @@
-package com.promineotech.rudimentarybanking.util;
-
-public enum TransferStatus {
-
-	PENDING,
-	TRANSFERED,
-	CANCELED,
-}
