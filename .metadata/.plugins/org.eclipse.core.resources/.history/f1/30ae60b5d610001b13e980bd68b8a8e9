@@ -1,0 +1,56 @@
+//package com.promineotech.rudimentarybanking.service;
+//
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.stereotype.Service;
+//
+//import com.promineotech.rudimentarybanking.entites.Admin;
+//import com.promineotech.rudimentarybanking.repository.AdminRepository;
+//
+//@Service
+//public class AdminService {
+//
+//
+//	private static final Logger logger = LogManager.getLogger(UserService.class);
+//		
+//	@Autowired
+//	private AdminRepository repo;
+//	
+//	public Iterable<Admin> getAdmins() {
+//		return repo.findAll();
+//	}
+//	
+//	public Admin getAdminById(Long id) {
+//		return repo.findOne(id);
+//	}
+//	
+//	public Admin createAdmin(Admin admin) {
+//		return repo.save(admin);
+//	}
+//	
+//	public Admin updateAdmin(Admin admin, Long id) throws Exception{
+//		try {
+//			Admin oldAdmin = repo.findOne(id);
+//			oldAdmin.setAddress(admin.getAddress());
+//			oldAdmin.setEmail(admin.getEmail());
+//			oldAdmin.setFirstName(admin.getFirstName());
+//			oldAdmin.setLastName(admin.getLastName());
+//			oldAdmin.setPhoneNumber(admin.getPhoneNumber());
+//			oldAdmin.setPassword(admin.getPassword());
+//			return repo.save(oldAdmin);
+//		} catch (Exception e) {
+//			logger.error("Exception occured while trying to update admin: " + id, e);
+//			throw new Exception("Unable to update admin.");
+//		}
+//	}
+//	
+//	public void deleteAdmin(Long id) throws Exception {
+//		try {
+//			repo.delete(id);
+//		} catch (Exception e) {
+//			logger.error("Exception occured while trying to delte admin: " + id, e);
+//			throw new Exception("Unable to delete admin.");
+//		}
+//	}
+//}

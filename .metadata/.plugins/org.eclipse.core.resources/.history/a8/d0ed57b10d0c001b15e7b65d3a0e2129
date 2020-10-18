@@ -1,0 +1,91 @@
+package com.promineotech.rudimentarybanking.service;
+
+import java.time.LocalDate;
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.promineotech.rudimentarybanking.entites.Account;
+import com.promineotech.rudimentarybanking.entites.Deposit;
+import com.promineotech.rudimentarybanking.entites.User;
+import com.promineotech.rudimentarybanking.repository.AccountRepository;
+import com.promineotech.rudimentarybanking.repository.DepositRepository;
+import com.promineotech.rudimentarybanking.repository.UserRepository;
+import com.promineotech.rudimentarybanking.util.DepositStatus;
+
+@Service
+public class DepositService {
+	
+	private static final Logger logger = LogManager.getLogger(DepositService.class);
+	
+	@Autowired
+	private DepositRepository repo;
+	
+	@Autowired
+	private AccountRepository accountRepo;
+	
+	@Autowired
+	private UserRepository userRepo;
+	
+	
+	
+//	public Deposit submitDeposit(Long accountId, Long userId, double amount) throws Exception {
+//		try {
+//			Account account = accountRepo.findOne(accountId);
+//			User user = userRepo.findOne(userId);
+//			double updatedBalance = accountRepo.findOne(accountId).getBalance();
+//			updatedBalance += amount;
+//			//need a way to add amount to account balance and save
+//			Deposit deposit = createDeposit(accountId, userId, amount);
+//			return repo.save(deposit);
+//		} catch (Exception e) {
+//			logger.error("Exception occured while trying to submit a new deposit for account: " + accountId, e);
+//			throw e;
+//		}
+//	}
+//	
+//	public Deposit completeDeposit(Long depositId) throws Exception {
+//		try {
+//			Deposit deposit = repo.findOne(depositId);
+//			deposit.setStatus(DepositStatus.DEPOSITED);
+//			return repo.save(deposit);
+//		} catch (Exception e) {
+//			logger.error("Exception occured while trying to create a new deposit: " + depositId, e);
+//			throw e;
+//		}
+//	}
+	
+	public Deposit cancelDeposit(Long depositId) throws Exception {
+		try {
+			Deposit deposit = repo.findOne(depositId);
+			deposit.setStatus(DepositStatus.CANCELED);
+			return repo.save(deposit);
+		} catch (Exception e) {
+			logger.error("Exception occured when trying to cancel deposit: " + depositId, e);
+			throw new Exception("Unable to cancel deposit");
+		}
+	}
+	
+	public Deposit newDeposit(Long accountId, Long userId, double amount) {
+		Deposit deposit = new Deposit();
+		Account account = accountRepo.findOne(accountId);
+		User user = userRepo.findOne(userId);
+		AccountService accountService = new AccountService();
+		account.setId(accountId);
+		user.setId(userId);
+		try {
+			accountService.increaseBalance(account, userId, amount);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		deposit.setDateDeposited(LocalDate.now());
+		deposit.setStatus(DepositStatus.DEPOSITED); 
+		return repo.save(deposit);
+		}
+
+}

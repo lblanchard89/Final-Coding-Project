@@ -1,0 +1,97 @@
+package com.promineotech.rudimentarybanking.entites;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.rudimentarybanking.util.AccountTier;
+
+@Entity
+public class Account {
+	
+	private Long id;
+	private String accountType;
+	private double balance;
+	private AccountTier accountTier;
+	
+	@JsonIgnore
+	private List<Deposit> deposits;
+	
+	@JsonIgnore
+	private List<Withdraw> withdraws;
+	
+	@JsonIgnore
+	private List<User> users;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public Long getId() {
+		return id;
+	}
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	@ManyToMany
+	@JoinColumn(name = "userId")
+	public List<User> getUsers() {
+		return users;
+	}
+	
+	public void setUsers(List<User> user) {
+		this.users = user;
+	}
+	
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public AccountTier getAccountTier() {
+		return accountTier;
+	}
+
+	public void setAccountTier(AccountTier accountTier) {
+		this.accountTier = accountTier;
+	}
+
+	@ManyToMany
+	@JoinColumn(name = "depositId")
+	public List<Deposit> getDeposits() {
+		return deposits;
+	}
+
+	public void setDeposits(List<Deposit> deposits) {
+		this.deposits = deposits;
+	}
+
+	@ManyToMany
+	@JoinColumn(name = "withdrawId")
+	public List<Withdraw> getWithdraws() {
+		return withdraws;
+	}
+
+	public void setWithdraws(List<Withdraw> withdraws) {
+		this.withdraws = withdraws;
+	}
+
+
+}

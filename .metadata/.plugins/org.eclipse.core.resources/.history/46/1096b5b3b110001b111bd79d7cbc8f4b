@@ -1,0 +1,34 @@
+package com.promineotech.rudimentarybanking.view;
+
+import com.promineotech.rudimentarybanking.entites.Admin;
+import com.promineotech.rudimentarybanking.entites.User;
+
+public class LoggedInView {
+	private User user;
+	private Admin admin;
+	private String jwt;
+	
+	public User getUser() {
+		return user;
+	}
+	
+	public void setUser(User user) {
+		this.user = user;
+	}
+	public Admin getAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(Admin admin) {
+		this.admin = admin;
+	}
+
+	public String getJwt() {
+		return jwt;
+	}
+
+	public void setJwt(String jwt) {
+		this.jwt = jwt;
+	}
+
+}

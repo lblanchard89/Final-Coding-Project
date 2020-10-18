@@ -1,0 +1,68 @@
+package com.promineotech.rudimentarybanking.service;
+
+import java.time.LocalDate;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.promineotech.rudimentarybanking.entites.Account;
+import com.promineotech.rudimentarybanking.entites.Deposit;
+import com.promineotech.rudimentarybanking.entites.Transfer;
+import com.promineotech.rudimentarybanking.entites.Withdraw;
+import com.promineotech.rudimentarybanking.repository.AccountRepository;
+import com.promineotech.rudimentarybanking.repository.DepositRepository;
+import com.promineotech.rudimentarybanking.repository.TransferRepository;
+import com.promineotech.rudimentarybanking.repository.WithdrawRepository;
+import com.promineotech.rudimentarybanking.util.DepositStatus;
+import com.promineotech.rudimentarybanking.util.TransferStatus;
+
+@Service
+public class TransferService {
+	
+	private static final Logger logger = LogManager.getLogger(DepositService.class);
+	
+	@Autowired
+	private TransferRepository repo;
+	
+//	@Autowired
+//	private DepositRepository depositRepo;
+//	
+//	@Autowired
+//	private WithdrawRepository withdrawRepo;
+	
+	@Autowired
+	private AccountRepository accountRepo;
+	
+	public Transfer cancelTransfer(Long transferId) throws Exception {
+		try {
+			Transfer transfer = repo.findOne(transferId);
+			transfer.setStatus(TransferStatus.CANCELED);
+			return repo.save(transfer);
+		} catch (Exception e) {
+			logger.error("Exception occured when trying to cancel transfer: " + transferId, e);
+			throw new Exception("Unable to cancel transfer");
+		}
+	}
+	
+	//Don't know if I need to add in a way to store in the withdraw/deposit repositories.
+	public Transfer newTransfer(Long accountId1, Long accountId2, double amount) {
+		Transfer transfer = new Transfer();
+		Account withdrawAccount = accountRepo.findOne(accountId1);
+		Account depositAccount = accountRepo.findOne(accountId2);
+		DepositService depositService = new DepositService();
+		WithdrawService withdrawService = new WithdrawService();
+		withdrawAccount.setId(accountId1);
+		depositAccount.setId(accountId2);
+		try {
+			withdrawService.newWithdraw(accountId1, amount);
+			depositService.newDeposit(accountId2, amount);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		transfer.setDateTransfered(LocalDate.now());
+		transfer.setStatus(TransferStatus.TRANSFERED); 
+		return repo.save(transfer);
+	}
+}

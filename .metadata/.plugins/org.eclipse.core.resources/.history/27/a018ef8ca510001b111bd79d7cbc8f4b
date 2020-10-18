@@ -1,0 +1,5 @@
+package com.promineotech.rudimentarybanking.components;
+
+public class EmailConfiguration {
+
+}

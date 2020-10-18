@@ -1,0 +1,7 @@
+package com.promineotech.rudimentarybanking.util;
+
+public enum WithdrawStatus {
+	
+	WITHDRAWN,
+	CANCELED,
+}

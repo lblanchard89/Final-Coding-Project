@@ -1,5 +1,0 @@
-package com.promineotech.rudimentarybanking.repository;
-
-public interface WithdrawRepository {
-
-}

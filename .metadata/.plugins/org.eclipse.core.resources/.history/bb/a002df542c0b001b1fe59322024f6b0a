@@ -1,9 +1,0 @@
-package com.promineotech.rudimentarybanking.service;
-
-public class WithdrawService {
-
-}
-
-
-// I need to set the an updated balance equal to he current balance minus the amount withdrawn
-// I need to save the withdrawn amount, so that it can be transfered

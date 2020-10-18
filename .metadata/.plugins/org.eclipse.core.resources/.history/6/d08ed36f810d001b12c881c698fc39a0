@@ -1,0 +1,107 @@
+package com.promineotech.rudimentarybanking.entites;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.rudimentarybanking.util.TransferStatus;
+
+@Entity
+public class Transfer {
+
+	private String id;
+	private double amount;
+	private LocalDate dateTransfered;
+	private TransferStatus status;
+	
+	@JsonIgnore
+	private Account account;
+	private Deposit deposit;
+	private Withdraw withdraw;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public String getId() {
+		return id;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name = "fromAccountId")
+	public Account getFromAccount() {
+		return account;
+	}
+	
+	public void setFromAccount(Account account) {
+		this.account = account;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name = "toAccountId")
+	public Account getToAccount() {
+		return account;
+	}
+	
+	public void setToAccount(Account account) {
+		this.account = account;
+	}
+
+	// I dunno if I need the same manytomany and join relationships as above
+	@OneToOne
+	@JoinColumn(name = "id")
+	public Deposit getDeposit() {
+		return deposit;
+	}
+
+	public void setDeposit(Deposit deposit) {
+		this.deposit = deposit;
+	}
+
+	// I dunno if I need the same manytomany and join relationships as above
+	@OneToOne
+	@JoinColumn(name = "id")
+	public Withdraw getWithdraw() {
+		return withdraw;
+	}
+
+	public void setWithdraw(Withdraw withdraw) {
+		this.withdraw = withdraw;
+	}
+	
+	public double getAmount() {
+		return amount;
+	}
+	
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	
+
+	public TransferStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(TransferStatus status) {
+		this.status = status;
+	}
+
+	public LocalDate getDateTransfered() {
+		return dateTransfered;
+	}
+
+	public void setDateTransfered(LocalDate dateTransfered) {
+		this.dateTransfered = dateTransfered;
+	}
+
+}

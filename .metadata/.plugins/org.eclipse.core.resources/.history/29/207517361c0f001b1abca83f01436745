@@ -1,0 +1,76 @@
+package com.promineotech.rudimentarybanking.requests;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.rudimentarybanking.entites.Account;
+
+public class Action {
+	
+	//WITHDRAW or DEPOSIT
+	private Long id;
+	private String type;
+	private Long accountId;
+	private double amount;
+	
+	@JsonIgnore
+	public Set<Account> accounts;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	@ManyToMany(cascade=CascadeType.ALL)
+	@JoinTable(name ="accountActions",
+		joinColumns = @JoinColumn(name = "accountId", referencedColumnName = "id"),
+		inverseJoinColumns = @JoinColumn(name = "actionId", referencedColumnName = "id"))
+	public Set<Account> getAccounts() {
+		return accounts;
+	}
+
+	public void setAccounts(Set<Account> accounts) {
+		this.accounts = accounts;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	public Long getAccountId() {
+		return accountId;
+	}
+	public void setAccountId(Long accountId) {
+		this.accountId = accountId;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
+//	@ManyToMany(mappedBy = "actions")
+//	public Set<Account> getAccounts() {
+//		return accounts;
+//	}
+//	public void setAccounts(Set<Account> accounts) {
+//		this.accounts = accounts;
+//	}
+	
+}

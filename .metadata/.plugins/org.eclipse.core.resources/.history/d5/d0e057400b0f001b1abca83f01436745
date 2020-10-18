@@ -1,0 +1,53 @@
+package com.promineotech.rudimentarybanking.service;
+
+import java.time.LocalDate;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.promineotech.rudimentarybanking.entites.Account;
+import com.promineotech.rudimentarybanking.entites.Withdraw;
+import com.promineotech.rudimentarybanking.repository.AccountRepository;
+import com.promineotech.rudimentarybanking.repository.WithdrawRepository;
+import com.promineotech.rudimentarybanking.util.WithdrawStatus;
+
+@Service
+public class WithdrawService {
+	
+	private static final Logger logger = LogManager.getLogger(DepositService.class);
+	
+	@Autowired
+	private WithdrawRepository repo;
+	
+	@Autowired
+	private AccountRepository accountRepo;
+
+	public Withdraw cancelWithdraw(Long withdrawId) throws Exception {
+		try {
+			Withdraw deposit = repo.findOne(withdrawId);
+			deposit.setStatus(WithdrawStatus.CANCELED);
+			return repo.save(deposit);
+		} catch (Exception e) {
+			logger.error("Exception occured when trying to cancel deposit: " + withdrawId, e);
+			throw new Exception("Unable to cancel deposit");
+		}
+	}
+	
+	public Withdraw newWithdraw(Long accountId, double amount) { // this seems to be correct, I still don't know if I need to create then submit the deposit?
+		Withdraw deposit = new Withdraw();
+		Account account = accountRepo.findOne(accountId);
+		AccountService accountService = new AccountService();
+		account.setId(accountId);
+		try {
+			accountService.decreaseBalance(account, amount);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		deposit.setDateWithdrawn(LocalDate.now());
+		deposit.setStatus(WithdrawStatus.WITHDRAWN); 
+		return repo.save(deposit);
+		}
+
+}

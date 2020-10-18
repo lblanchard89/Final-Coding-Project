@@ -1,0 +1,37 @@
+package com.promineotech.rudimentarybanking.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.stereotype.Service;
+
+import com.promineotech.rudimentarybanking.components.EmailConfiguration;
+import com.promineotech.rudimentarybanking.entites.Credentials;
+
+@Service
+public class EmailService {
+	
+	@Autowired
+	private EmailConfiguration config;
+	
+	public void sendWelcomeEmail(Credentials credentials) {
+		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+		mailSender.setHost(config.getHost());
+		mailSender.setPort(config.getPort());
+		mailSender.setUsername(config.getUsername());
+		mailSender.setPassword(config.getPassword());
+		
+		SimpleMailMessage mailMessage = new SimpleMailMessage();
+		mailMessage.setFrom("lblanchard89@gmail.com");
+		mailMessage.setTo(credentials.getEmail());
+		mailMessage.setSubject("Welcome to the simplest banking experience out there.");
+		mailMessage.setText("Hello, " 
+							+ "\n\n Thank you for joining Rudimentary Banking Services."
+							+ "You have found the right place for all of your financial needs.\n"
+							+ "We offer a great a variety of accounts types and tiers that will,"
+							+ " undoubtadly help you to reach your financial goals. We look forward"
+							+ " to helping you and your loved ones for years and years to come."
+							+ "\n\n Username: " + credentials.getUsername() + "\nPassword: " + cred.getPassword());
+		
+		mailSender.send(mailMessage);
+	}

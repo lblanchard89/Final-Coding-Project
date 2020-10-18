@@ -1,0 +1,5 @@
+package com.promineotech.rudimentarybanking.view;
+
+public class AdminLoggedInView {
+
+}

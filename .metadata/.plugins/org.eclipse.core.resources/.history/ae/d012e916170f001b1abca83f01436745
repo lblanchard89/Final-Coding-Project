@@ -1,0 +1,65 @@
+package com.promineotech.rudimentarybanking.requests;
+
+import java.util.Set;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.rudimentarybanking.entites.Account;
+
+public class Transfer {
+	
+	
+	private Long id;
+	private Long toAccountId;
+	private Long fromAccountId;
+	private double amount;
+	
+	@JsonIgnore
+	public Set<Account> accounts;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	public Long getToAccountId() {
+		return toAccountId;
+	}
+	public void setToAccountId(Long toAccountId) {
+		this.toAccountId = toAccountId;
+	}
+	public Long getFromAccountId() {
+		return fromAccountId;
+	}
+	public void setFromAccountId(Long fromAccountId) {
+		this.fromAccountId = fromAccountId;
+	}
+	
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
+	@ManyToOne
+	@JoinColumn(name = "accountIds")
+	public Set<Account> getAccounts() {
+		return accounts;
+	}
+	public void setAccounts(Set<Account> accounts) {
+		this.accounts = accounts;
+	}
+	
+	
+}
